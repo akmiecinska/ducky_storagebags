@@ -16,12 +16,10 @@ img {
 }
 
 @media only screen and (max-width: 736px) {
-    body {
-        height: 2000px;
-    }
     html {
         font-family: Poppins, Arial, sans-serif;
         font-size: 12px;
+        margin: 0 auto;;
     }
     h1 {
         font-size: 3rem;
@@ -35,10 +33,14 @@ img {
         font-size: 1.5rem;
         font-weight: 700;
     }
+    h4 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
     p {
         font-size: 1rem;
         font-weight: 300;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .slogan {
         font-size: 1.9rem;
@@ -67,7 +69,7 @@ img {
         left: 40px;
     }
     .nav-list-desktop {
-        display: initial;
+        font-size: 1rem;
     }
     nav ul {
         float: right;
@@ -113,7 +115,40 @@ img {
         background-repeat: no-repeat;
         margin: 10px 0;
     }
-  }
+    /* INSTAGRAM
+    .instagram {
+        width: 100%;
+    }
+    .instagram-img {
+        width: 50%;
+        background-image: url("../images/torba1-square.jpg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } */
+    /* FOOTER */
+    footer {
+        width: 100%;
+        height: 90px;
+        background-color: #fff;
+        box-shadow: 0px 0px 3px 1px #818181;
+        text-align: center;
+        padding: 25px;
+    }
+    footer a {
+        text-decoration: underline;
+    }
+    .logo-slogan {
+        width: 50%;
+        height: 150px;
+        background-image: url(../images/logo-slogan.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 5% auto;
+    }
+}
+  
 
 
 
