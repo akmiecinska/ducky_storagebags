@@ -17,6 +17,9 @@ img {
 
 @media only screen and (max-width: 736px) {
     body {
+        height: 2000px;
+    }
+    html {
         font-family: Poppins, Arial, sans-serif;
         font-size: 8px;
     }
@@ -27,6 +30,7 @@ img {
         background-color: #fff;
         box-shadow: -7px -3px 3px 3px #818181;
         font-weight: 700;
+        font-size: 1.2rem;
         display: inline-block;
         position: fixed;
         top: 0;
@@ -51,9 +55,18 @@ img {
     }
     nav li {
         float: left;
-        padding-left: 15px;
+        padding-left: 20px;
     }
-
+    /* FULL WIDTH IMAGE */
+    .full-width-img {
+        background-image: url("../images/landing-hero.jpg");
+        width: 100%;
+        height: 380px;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 70px 0;
+    }
   }
 
 
@@ -67,7 +80,6 @@ img {
     body {
         font-family: Poppins, Arial, sans-serif;
         font-size: 16px;
-        height: 3400px;
     }
     .main-width {
         width: 1366px;
@@ -119,7 +131,7 @@ img {
     }
 
     /* FULL WIDTH IMAGE */
-    .full-width-img-height850px {
+    .full-width-img {
         background-image: url("../images/landing-hero.jpg");
         width: 100%;
         height: 850px;
