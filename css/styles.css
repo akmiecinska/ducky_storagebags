@@ -21,7 +21,7 @@ img {
     }
     html {
         font-family: Poppins, Arial, sans-serif;
-        font-size: 8px;
+        font-size: 12px;
     }
     h1 {
         font-size: 3rem;
@@ -100,7 +100,7 @@ img {
     }
     /* MAIN SHOP */
     .product {
-        margin: 45px 0;
+        margin: 40px 0;
     }
     .main-product-img img{
         width: 100%;
