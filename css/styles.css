@@ -23,10 +23,9 @@ img {
     /* NAVIGACJA */
     nav {
         width: 100%;
-        height: 50px;
+        height: 70px;
         background-color: #fff;
-        box-shadow: -3px -3px 3px 3px #818181;
-        font-size: 1rem;
+        box-shadow: -7px -3px 3px 3px #818181;
         font-weight: 700;
         display: inline-block;
         position: fixed;
@@ -37,22 +36,22 @@ img {
         display: none;
     }
     .logo {
-        width: 50px;
-        height: 25px;
+        width: 70px;
+        height: 35px;
         position: absolute;
         top: 25%;
-        left: 50%;
-        margin-left: -25px;
+        left: 40px;
     }
     .nav-list-desktop {
-        display: none;
+        display: initial;
     }
-    .nav-list-mobile {
-        width: 15px;
-        height: 10px;
-        position: absolute;
-        top: 25%;
-        right: 40px;
+    nav ul {
+        float: right;
+        padding: 30px 40px 30px 0;
+    }
+    nav li {
+        float: left;
+        padding-left: 15px;
     }
 
   }
