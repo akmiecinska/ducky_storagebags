@@ -12,7 +12,7 @@ li {
 }
 img {
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 736px) {
@@ -22,6 +22,23 @@ img {
     html {
         font-family: Poppins, Arial, sans-serif;
         font-size: 8px;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 10px;
     }
     /* NAVIGACJA */
     nav {
@@ -67,27 +84,11 @@ img {
         background-repeat: no-repeat;
         margin: 70px 0 50px 0;
     }
-    .main-about {
-        margin: 0 auto;
+    /* MAIN ABOUT */
+    .main-width-centred {
+        margin: 35px auto;
         text-align: center;
-        width: 70%;
-    }
-    h1 {
-        font-size: 3rem;
-        font-weight: 700;
-    }
-    h2 {
-        font-size: 2rem;
-        font-weight: 700;
-    }
-    h3 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-    p {
-        font-size: 1rem;
-        font-weight: 500;
-        margin-top: 10px;
+        width: 80%;
     }
     hr {
         width: 50%;
@@ -96,6 +97,18 @@ img {
         border: none;
         margin: 25px auto;
 
+    }
+    /* MAIN SHOP */
+    .product {
+        margin: 45px 0;
+    }
+    .main-product-img img{
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px 0;
     }
   }
 
