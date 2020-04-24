@@ -1,11 +1,11 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #000;
     font-family: Poppins, Arial, sans-serif;
     font-weight: 800;
-    text-align: center;
+    text-align: left;
     text-decoration: none; 
     background-size: contain;
     background-position: center;
@@ -14,12 +14,12 @@
 @media only screen and (max-width: 736px) {
 /* BASICS */
     html {
-        font-size: 12px;
-        margin: 0 auto; }
+        font-size: 12px;}
     h1 {
         font-size: 3rem; }
     h2 {
         font-size: 2rem;
+        letter-spacing: 1px;
         margin: 30px 0 0 0; }
     h3 {
         font-size: 1.5rem; }
@@ -29,15 +29,17 @@
         line-height: 3.5vh; 
         margin: 10px 0; }
     p.bold {
-        font-weight: 600; }
+        font-weight: 800; }
     .slogan {
-        font-size: 1.9rem; }
+        font-size: 3rem;
+        line-height: 42px;
+        margin: 25px 0; }
     hr {
         width: 60%;
         height: 2px;
         background-color: #000;
         border: none; 
-        margin: 50px auto; }
+        margin: 25px 0; }
     .main-width {
         padding: 0 10%; }
 /* NAVIGACJA */
@@ -71,7 +73,7 @@
         margin-top: 40px;}
 
 /* MAIN ABOUT */
-    .link-underline a {
+    a.link-underline {
         text-decoration: underline; }
     
 /* MAIN SHOP */
