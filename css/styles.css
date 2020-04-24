@@ -48,11 +48,11 @@
         padding: 0 10%; }
 /* NAVIGACJA */
     nav {
-        width: 100%;
+        width: 100vw;
         height: 70px;
         background-color: #fff;
         box-shadow: -7px -3px 3px 3px #818181;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         position: fixed;
         top: 0;
         left: 0; }
@@ -68,22 +68,33 @@
         float: right;
         padding: 27px 0; }
     .nav-top a {
-        padding-left: 12px; }
+        padding-left: 3vw; }
 
 /* FULL WIDTH IMAGE */
-    .full-width-img img {
-        width: 100%;
+    .full-width-img-mobile img {
+        width: 100vw;
         height: auto; 
-        margin-top: 40px;}
+        margin-top: 40px; }
+    .full-width-img-ipad img {
+        display: none; }
+    .full-width-img-desktop img {
+        display: none; }
 
 /* MAIN ABOUT */
     a.link-underline {
         text-decoration: underline; }
     
 /* MAIN SHOP */
-    img.product-img {
+    img.product-img-mobile {
         width: 100%;
         height: auto; }
+    img.product-img-ipad {
+        display: none; }
+    img.product-img-desktop {
+        display: none; }
+        .br {
+            display: none;
+        }
 /* FOOTER */
     .logo-slogan {
         width: 50%;
@@ -99,7 +110,103 @@
     footer p {
         text-align: center; }
 }
+@media only screen and (max-width: 1080px) and (min-width: 737px) {
+    /* BASICS */
+    html {
+        font-size: 16px;}
+    h1 {
+        font-size: 4rem;
+        letter-spacing: 2px;
+        line-height: 5rem;
+        margin: 25px 0; }
+    h2 {
+        font-size: 3rem;
+        margin: 80px 0 20px 0; }
+    h3 {
+        font-size: 2rem; 
+        margin: 20px 0; }
+    p {
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 2rem; 
+        margin: 10px 0; }
+    p.bold {
+        font-weight: 800; }
+    .claim {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 35px 0; 
+    }
+    hr {
+        width: 30%;
+        height: 2px;
+        background-color: #000;
+        border: none; 
+        margin: 30px 0; }
+    .main-width {
+        padding: 0 9%; }
+/* NAVIGACJA */
+    nav {
+        width: 100vw;
+        height: 80px;
+        background-color: #fff;
+        box-shadow: -7px -3px 3px 3px #818181;
+        font-size: 0.8rem;
+        position: fixed;
+        top: 0;
+        left: 0; }
+    .nav-claim {
+        float: left; 
+        margin: 30px 0; }
+    .logo {
+        width: 80px;
+        height: 40px;
+        position: absolute;
+        top: 25%;
+        left: 45%; }
+    .nav-top {
+        float: right;
+        padding: 30px 0; }
+    .nav-top a {
+        padding-left: 3vw; }
 
+/* FULL WIDTH IMAGE */
+    .full-width-img-mobile img {
+        display: none; }
+    .full-width-img-ipad img {
+        width: 100vw;
+        height: auto; 
+        margin-top: 40px; }
+    .full-width-img-desktop img {
+        display: none; }
+
+/* MAIN ABOUT */
+    a.link-underline {
+        text-decoration: underline; }
+    
+/* MAIN SHOP */
+    img.product-img-mobile {
+        display: none; }
+    img.product-img-ipad {
+        width: 100%;
+        height: auto; }  
+    img.product-img-desktop {
+        display: none; }
+/* FOOTER */
+    .logo-slogan {
+        width: 60%;
+        height: 150px;
+        margin: 60px auto;
+        background-image: url(../images/ducky-logo-full-pl.jpg); }
+    footer {
+            width: 100%;
+            height: 150px;
+            background-color: #fff;
+            box-shadow: 0px 0px 3px 1px #818181; 
+            padding: 20px 0; }
+    footer p {
+        text-align: center; }
+}
 
 
 
