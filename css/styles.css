@@ -16,12 +16,16 @@
     html {
         font-size: 14px;}
     h1 {
-        font-size: 3rem; }
+        font-size: 3rem;
+        letter-spacing: 1px;
+        line-height: 4rem;
+        margin: 25px 0; }
     h2 {
         font-size: 2rem;
-        margin: 30px 0 0 0; }
+        margin: 80px 0 20px 0; }
     h3 {
-        font-size: 1.5rem; }
+        font-size: 1.5rem; 
+        margin: 20px 0; }
     p {
         font-size: 1.1rem;
         font-weight: 300;
@@ -29,11 +33,6 @@
         margin: 10px 0; }
     p.bold {
         font-weight: 800; }
-    .slogan {
-        font-size: 3rem;
-        letter-spacing: 1px;
-        line-height: 4rem;
-        margin: 25px 0; }
     .claim {
         font-size: 1.5rem;
         line-height: 2.5rem;
@@ -82,24 +81,23 @@
         text-decoration: underline; }
     
 /* MAIN SHOP */
-    .main-product-img img{
+    img.product-img {
         width: 100%;
         height: auto; }
-    h2.shop {
-        margin-top: 60px;
-    }
-        /* FOOTER */
-    footer {
-        width: 100%;
-        height: 120px;
-        background-color: #fff;
-        box-shadow: 0px 0px 3px 1px #818181; }
-    footer a {
-        text-decoration: underline;}
+/* FOOTER */
     .logo-slogan {
         width: 50%;
         height: 150px;
-        background-image: url(../images/logo-slogan.png); }
+        margin: 40px auto;
+        background-image: url(../images/ducky-logo-full-pl.jpg); }
+    footer {
+            width: 100%;
+            height: 130px;
+            background-color: #fff;
+            box-shadow: 0px 0px 3px 1px #818181; 
+            padding: 20px 0; }
+    footer p {
+        text-align: center; }
 }
 
 
