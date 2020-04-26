@@ -45,16 +45,12 @@ footer p {
     html {
         font-size: 14px;}
     h1 {
-        font-size: 3rem;
-        letter-spacing: 1px;
-        line-height: 4rem;
-        margin: 25px 0; }
+        font-size: 3rem; }
     h2 {
         font-size: 2rem;
-        margin: 80px 0 20px 0; }
+        margin: 30px 0 0 0; }
     h3 {
-        font-size: 1.5rem; 
-        margin: 20px 0; }
+        font-size: 1.5rem; }
     p {
         font-size: 1.1rem;
         font-weight: 300;
@@ -139,6 +135,11 @@ footer p {
         margin: 10px 0; }
     p.bold {
         font-weight: 800; }
+    .slogan {
+        font-size: 3rem;
+        letter-spacing: 1px;
+        line-height: 4rem;
+        margin: 25px 0; }
     .claim {
         font-size: 2rem;
         line-height: 2.5rem;
@@ -192,6 +193,7 @@ footer p {
         text-decoration: underline; }
     
 /* MAIN SHOP */
+<<<<<<< HEAD
     img.product-img-mobile {
         display: none; }
     img.product-img-ipad {
@@ -200,9 +202,26 @@ footer p {
     img.product-img-desktop {
         display: none; }
 /* FOOTER */
+=======
+    .main-product-img img{
+        width: 100%;
+        height: auto; }
+    h2.shop {
+        margin-top: 60px;
+    }
+        /* FOOTER */
+    footer {
+        width: 100%;
+        height: 120px;
+        background-color: #fff;
+        box-shadow: 0px 0px 3px 1px #818181; }
+    footer a {
+        text-decoration: underline;}
+>>>>>>> parent of b6af66a... mobile - main - v.1 done
     .logo-slogan {
         width: 60%;
         height: 150px;
+<<<<<<< HEAD
         margin: 60px auto;
         background-image: url(../images/ducky-logo-full-pl.jpg); }
     footer {
@@ -214,6 +233,11 @@ footer p {
     footer p {
         text-align: center; }
 } */
+=======
+        background-image: url(../images/logo-slogan.png); }
+}
+
+>>>>>>> parent of b6af66a... mobile - main - v.1 done
 
 
 
