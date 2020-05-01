@@ -18,6 +18,8 @@
     margin-top: 50px; }
 .main-width {
     padding: 0 9vw; }
+a:hover {
+    text-decoration: underline; }
 a.link-underline {
     text-decoration: underline; }
 hr {
@@ -34,7 +36,7 @@ h1 {
 h2 {
     font-size: 2rem;
     line-height: 3rem;
-    margin-top: 10vh; }
+    margin-bottom: 2vw; }
 h3 {
     font-size: 1.5rem;
     margin-top: 4vh; }
@@ -45,8 +47,8 @@ p {
     margin: 2vh 0; }
 p.bold {
     font-weight: 800; }
-p.small {
-    font-size: 0.6rem; }
+p.footer {
+    font-size: 0.7rem; }
 /* NAVIGACJA */
 nav * {
     height: 20vw; }
@@ -57,10 +59,14 @@ nav {
     box-shadow: -7px -3px 3px 3px #818181; 
     position: fixed;
     top: 0; }
-.nav-logo {
+.slogan {
     display: inline-flex;
-    justify-content: start;
-    align-items: center; }
+    align-items: center;
+    margin: 0; }
+.nav-logo {
+display: inline-flex;
+justify-content: start;
+align-items: center; }
 .nav-logo img {
     width: 23vw;
     height: auto; }
@@ -72,7 +78,7 @@ nav {
 .nav-links a {
     height: initial;
     padding-left: 3vw; }
-/* MAIN SHOP */
+    /* MAIN SHOP */
 img.product-img {
     width: 100%; }
 /* LOGO BOTTOM */
@@ -94,15 +100,61 @@ footer {
 @media only screen and (max-width: 736px) {
     html {
         font-size: 14px; }
-    nav p {
+    .slogan {
         display: none; } }
-@media only screen and (min-width: 737px) {
-        html {
-            font-size: 28px; }
-        nav * {
-            height: 14vw; }
-        .nav-logo img {
-            width: 18vw; }
-        nav p {
-            display: none; }
-}
+@media only screen and (max-width: 1299px) and (min-width: 736px) {
+    html {
+        font-size: 28px; }
+    nav * {
+        height: 14vw; }
+    .nav-logo img {
+        width: 18vw; }
+    .slogan {
+        display: none; } }
+@media only screen and (min-width: 1300px) {
+    html {
+        font-size: 16px; }
+    h1 {
+        font-size: 6rem;
+        line-height: 7rem; }
+    p {
+        margin: 0 0 3vw 0;
+    }
+    /* NAVIGATION */
+    nav * {
+        height: 5vw;
+        letter-spacing: 0.5px; }
+    nav .main-width {
+        display: flex;
+        justify-content: space-between; }
+    .nav-logo img {
+        width: 7vw; }
+    /* ABOUT */
+    .about {
+        margin: 4vw 0;
+        display: flex; }
+    .about h1 {
+        text-align: right;
+        margin: 0; }
+    .about-slogan, .about-text {
+        padding: 2vw; }
+    /* SHOP */
+    .product * {
+        text-align: center; }
+    /* LOGO BOTTOM */
+    .logo-full {
+        width: 30vw;
+        height: 30vw; }
+    footer {
+        height: 7vw; }
+    p.footer {
+        font-size: 0.9rem;
+        margin: 0; }
+    /* MISC */
+    .disable {
+        display: none; }
+    a.link-underline {
+        text-decoration: none; }
+    a.link-underline:hover {
+        text-decoration: underline; }
+}   
