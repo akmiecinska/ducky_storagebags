@@ -5,21 +5,23 @@
 }
 .fullwidth-images {
     max-width: 100%;
-    height: 95vh; }
+    height: 90vh; }
 
-.hero {
-    margin-top: 20vw;
-    background-image: url("../../images/main/ducky_hero-m.jpg");
-}
+.hero { margin-top: 20vw; }
+.main { background-image: url("../../images/main/ducky_hero-m.jpg"); }
+.main-shop { background-image: url("../../images/main/ducky_worek-m.jpg"); }
+.shop { background-image: url("../../images/shop/ducky_hero-m.jpg"); }
 
 @media only screen and (min-width: 736px) {
-    .hero {
-        background-image: url("../../images/main/ducky_hero-ip.jpg");
-        margin-top: 14vw; }
+    .hero { margin-top: 14vw; }
+    .main { background-image: url("../../images/main/ducky_hero-ip.jpg"); }
+    .main-shop { background-image: url("../../images/main/ducky_worek-ip2.jpg"); }
+    .shop { background-image: url("../../images/shop/ducky_hero-ip.jpg"); }
 }
 
 @media only screen and (min-width: 1300px) {
-    .hero {
-        background-image: url("../../images/main/ducky_hero-d.jpg");
-        margin-top: 5vw; }
+    .hero { margin-top: 5vw; }
+    .main { background-image: url("../../images/main/ducky_hero-d.jpg"); }
+    .main-shop { background-image: url("../../images/main/ducky_worek-d2.jpg"); }
+    .shop { background-image: url("../../images/shop/ducky_hero-d.jpg"); }
 }

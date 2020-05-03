@@ -1,12 +1,7 @@
-.product-img { background-image: url("../images/shop/ducky_worek-m-1.jpg"); }
 .product { margin-top: 8vw; }
 
-@media only screen and (min-width: 736px) {
-    .product-img {
-        background-image: url("../images/shop/ducky_worek-ip-1.jpg"); }
+@media only screen and (min-width: 736px) {}
 @media only screen and (min-width: 1300px) {
-    .product-img {
-        background-image: url("../images/shop/ducky_worek-d-1.jpg"); }
     .disable {
         display: none; }
     /* ABOUT */

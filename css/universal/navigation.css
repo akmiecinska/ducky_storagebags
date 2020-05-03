@@ -1,21 +1,21 @@
-nav * {
-    height: 20vw; }
+nav * { height: 20vw; }
 nav {
     width: 100%;
-    font-size: 1rem; 
     background-color: #fff;
     box-shadow: -7px -3px 3px 3px #818181; 
     position: fixed;
     top: 0; }
 .slogan {
+    font-weight: 800;
+    font-size: 0.8rem;
     display: inline-flex;
     align-items: center;
     display: none;
     margin: 0; }
 .nav-logo {
-display: inline-flex;
-justify-content: start;
-align-items: center; }
+    display: inline-flex;
+    justify-content: start;
+    align-items: center; }
 .nav-logo img {
     width: 23vw;
     height: auto; }
@@ -29,11 +29,9 @@ align-items: center; }
     padding-left: 3vw; }
 
 @media only screen and (min-width: 736px) {
-    nav * {
-        height: 14vw; }
-    .nav-logo img {
-        width: 18vw; }
-    }
+    nav * { height: 14vw; }
+    .nav-logo img { width: 18vw; }
+}
 @media only screen and (min-width: 1300px) {
     nav * {
         height: 5vw;
@@ -41,8 +39,6 @@ align-items: center; }
     nav .main-width {
         display: flex;
         justify-content: space-between; }
-    .slogan {
-        display: inline-flex; }
-    .nav-logo img {
-        width: 7vw; }
+    .slogan { display: inline-flex; }
+    .nav-logo img { width: 7vw; }
 }   
