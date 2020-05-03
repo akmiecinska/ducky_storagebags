@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: initial;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;  }
+
+.main-width { padding: 0 9vw; }
+section { margin: 10vh 0; }
+
+a:hover { text-decoration: underline; }
+a.link-underline { text-decoration: underline; }
+
+hr {
+    width: 50vw;
+    height: 2px;
+    background-color: #000;
+    border: none; 
+    margin: 5vh 0; }
+
+@media only screen and (min-width: 736px) {}
+
+@media only screen and (min-width: 1300px) {
+    a.link-underline { text-decoration: none; }
+    a.link-underline:hover { text-decoration: underline; }
+}
