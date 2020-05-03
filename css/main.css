@@ -11,7 +11,7 @@
         text-align: right;
         margin: 0; }
     .about-slogan, .about-text {
-        padding: 2vw; }
+        padding: 0 2vw; }
     /* SHOP */
     .product * {
         text-align: center; }

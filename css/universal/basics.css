@@ -10,7 +10,9 @@
 section { margin: 10vh 0; }
 
 a:hover { text-decoration: underline; }
-a.link-underline { text-decoration: underline; }
+a.link-underline { 
+    text-decoration: underline;
+    font-weight: 600; }
 
 hr {
     width: 50vw;
