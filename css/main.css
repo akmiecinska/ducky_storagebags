@@ -1,7 +1,11 @@
 .product { margin-top: 8vw; }
 
+
 @media only screen and (min-width: 736px) {}
 @media only screen and (min-width: 1300px) {
+    .main-products {
+        display: flex;
+    }
     .disable {
         display: none; }
     /* ABOUT */
@@ -16,4 +20,5 @@
     /* SHOP */
     .product * {
         text-align: center; }
+    }
 }   
