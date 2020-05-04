@@ -5,7 +5,10 @@
 }
 .fullwidth-images {
     max-width: 100%;
-    height: 70vh; }
+    height: 75vh; }
+.product-img {
+    margin-top: 4vh;
+}
 
 .hero { margin-top: 20vw; }
 .main { background-image: url("../../images/main/ducky_hero-m.jpg"); }

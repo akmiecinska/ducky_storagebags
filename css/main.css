@@ -1,11 +1,8 @@
-.product { margin-top: 8vw; }
+.product { margin-top: 10vw; }
 
 
 @media only screen and (min-width: 736px) {}
 @media only screen and (min-width: 1300px) {
-    .main-products {
-        display: flex;
-    }
     .disable {
         display: none; }
     /* ABOUT */
