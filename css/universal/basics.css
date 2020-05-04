@@ -16,6 +16,7 @@ a.link-underline {
 
 hr {
     width: 50vw;
+    clear: both;
     height: 2px;
     background-color: #000;
     border: none; 
@@ -26,5 +27,5 @@ hr {
 @media only screen and (min-width: 1300px) {
     a.link-underline { text-decoration: none; }
     a.link-underline:hover { text-decoration: underline; }
-    .main-width-half { padding: 0 20vw;}
+    .main-width-half { padding: 0 20vw; }
 }

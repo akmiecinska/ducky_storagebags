@@ -9,6 +9,12 @@
 .product-img {
     margin-top: 4vh;
 }
+.logo-full {
+    width: 50vw;
+    height: 40vw;
+    margin: 0 auto;
+    background-size: contain;
+    background-image: url("../../images/ducky_logofull_pl.jpg"); }
 
 .hero { margin-top: 20vw; }
 .main { background-image: url("../../images/main/ducky_hero-m.jpg"); }
