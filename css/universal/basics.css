@@ -7,7 +7,6 @@
     text-decoration: none;  }
 
 .main-width { padding: 0 9vw; }
-.main-width-half { padding: 0 20vw;;}
 section { margin: 10vh 0; }
 
 a:hover { text-decoration: underline; }
@@ -27,4 +26,5 @@ hr {
 @media only screen and (min-width: 1300px) {
     a.link-underline { text-decoration: none; }
     a.link-underline:hover { text-decoration: underline; }
+    .main-width-half { padding: 0 20vw;}
 }
