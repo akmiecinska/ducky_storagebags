@@ -5,7 +5,7 @@
 }
 .fullwidth-images {
     max-width: 100%;
-    height: 75vh; }
+    height: 70vh; }
 .product-img {
     margin-top: 4vh;
 }
@@ -21,6 +21,7 @@
 .main-shop { background-image: url("../../images/main/ducky_worek-m.jpg"); }
 .shop { background-image: url("../../images/shop/ducky_hero-m.jpg"); }
 .about-us { background-image: url("../../images/about/about.jpg"); }
+.contact { background-image: url("../../images/contact/ducky_contact.jpg");}
 
 @media only screen and (min-width: 736px) {
     .hero { margin-top: 14vw; }
@@ -34,4 +35,7 @@
     .main { background-image: url("../../images/main/ducky_hero-d.jpg"); }
     .main-shop { background-image: url("../../images/main/ducky_worek-d.jpg"); }
     .shop { background-image: url("../../images/shop/ducky_hero-d.jpg"); }
+    .logo-full {
+        width: 300px;
+        height: 300px; }
 }

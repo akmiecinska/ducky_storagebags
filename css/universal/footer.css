@@ -13,9 +13,6 @@ p.footer {
 
 @media only screen and (min-width: 736px) {}
 @media only screen and (min-width: 1300px) {
-    .logo-full {
-        width: 300px;
-        height: 300px; }
     footer { height: 7vw; }
     p.footer { font-size: 1rem; }
 }   
