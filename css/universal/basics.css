@@ -25,6 +25,7 @@ hr {
 @media only screen and (min-width: 736px) {}
 
 @media only screen and (min-width: 1300px) {
+    body { text-align: center; }
     a.link-underline { text-decoration: none; }
     a.link-underline:hover { text-decoration: underline; }
     .main-width-half { padding: 0 20vw; }
